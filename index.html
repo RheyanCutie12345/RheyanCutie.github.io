@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Activity 1 Endterm</title>
+    </head>
+    <script src="https://kit.fontawesome.com/ccaf8ead0b.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/rage-italic" rel="stylesheet">
+    <link rel="shortcut icon" href="media/logo.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/ink-free" rel="stylesheet">
+                
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            padding: 0;
+            margin: 0 ;
+            background-color: #17146c;
+  
+         
+        }
+.header{
+    width: 100%;
+    background-color: #256f64;
+    display: flex;
+    justify-content: space-between;
+   padding-top: 20px;
+    align-items: flex-end;
+
+
+}
+nav{
+    padding: 20px;
+}
+.nav{
+    display: inline-block;    
+    padding: 20px;
+   
+  
+}
+a{
+    text-decoration: none;
+    font-size:25px;
+    font-family: Garamond, serif;
+    color: red;
+    text-shadow: 3px 1px 5px black;
+    
+}
+a:hover{
+    color:white ;
+}
+.head2{
+    display: flex;
+    font-size: 30px;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Rage Italic', sans-serif;
+   width: 40%;
+   text-shadow: 2px 1px 7px white;
+   
+   
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    
+
+}
+.slide{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;  
+
+   }
+
+.pic1{
+    width: 100%;
+    width: 50%;
+    height: 58%;
+    display: block;
+    background-image: url("media/photo1.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideshow1 40s infinite;
+
+  z-index: 5;
+  position: absolute;
+  border: 10px outset;
+    border-radius: 20px;
+    
+  
+}
+
+.pic2{
+    width: 50%;
+    height: 58%;
+    display: block;
+    background-image: url("media/photo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideshow2 40s infinite;
+    z-index: 4;
+    position: absolute;
+    border: 10px outset;
+    border-radius: 20px;
+    
+}
+
+.pic3{
+    width: 50%;
+    height: 50%;
+    display: block;
+    background-image: url("media/photo3.jpg.");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideshow3 40s infinite;
+    z-index: 3;
+    position: absolute;
+    border: 10px outset;
+    border-radius: 20px;
+    
+   
+}
+.pic4{
+    width: 50%;
+    height: 58%;
+    display: block;
+    background-image: url("media/photo4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideshow4 40s infinite;
+    z-index: 2;
+    position:absolute;
+    border-radius: 20px;
+    border: 10px outset;
+
+    
+}
+.pic5{
+    width: 50%;
+    height: 58%;
+    display: block;
+    background-image: url("media/photo5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideshow5 40s infinite;
+    z-index: 1; 
+    position: absolute;
+    border: 10px outset;
+    border-radius: 20px;
+    
+}
+@keyframes slideshow1{
+    0%{opacity: 1; left:25%;  }
+    20%{opacity: 0; left:45%}
+    40%{opacity: 0;}
+    60%{opacity: 0;}
+    80%{opacity: 0;}  
+    100%{opacity: 0;}
+}
+@keyframes slideshow2{
+    0%{opacity: 0; left:10%; }
+    20%{opacity: 1;left:25%; }
+    40%{opacity: 0; left:45%}
+    60%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes slideshow3{
+   0%{opacity: 0; }
+    20%{opacity: 0; left:10%;  }
+    40%{opacity: 1;left:25%;}
+    60%{opacity: 0;left:45%}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes slideshow4{
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    40%{opacity: 0;left:10%;}
+    65%{opacity: 1;left: 25%;}
+    80%{opacity: 0;left: 45%;}
+    100%{opacity: 0;}
+}
+@keyframes slideshow5{
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    65%{opacity: 0;left:10%;}
+    80%{opacity: 1;left: 25%;}
+    100%{opacity: 0;left: 45%;}
+}
+
+.tagline{
+    width: 100%;    
+    background-color: white;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#text{
+    font-size: 60px;
+    font-family: 'EB Garamond';
+}
+.about{
+    margin-top: 10px;
+    margin-bottom: 230px;
+
+}
+
+article{
+    padding-left:3% ;
+
+}
+.h1a{
+    background-color: white;
+    display: inline-flex ;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+.body{
+    height: 400px;
+    width: 97%;
+    background-color: #ffffff;
+    margin-top: -17px;
+    border-radius: 5px;
+}
+.space{
+    color: white;
+}
+.content{
+    height: 100%;
+    width: 60%;
+    float: left;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.image{
+    height: 100%;
+    width: 38%;
+float: left;
+}
+img{
+    height: 100%;
+}
+.menu{
+    margin-top: 2%;
+    text-align: center;
+    background-color: white;
+    padding-top: 1%;
+    height: 500px;
+}
+
+table thead th{
+  border: 2px solid black;
+
+}
+table{
+  border: 3px  solid black;
+  box-shadow: 1px 0px 20px red;
+  
+}
+table tbody td{
+  border: 2px solid black;
+}
+.title-menu{
+  background-color: green;
+
+}
+  </style>
+  
+    <body>
+<div class="header">
+    <div class="head2">
+        <img class="logo" src="media/logo.png" alt="">
+         <h2>Yannies SeaFood Restaurant</h2>
+</div>
+    <nav>
+        <li class="nav"><a href="index.html"><i class="fa-sharp fa-solid fa-house"></i>Home</a></li>
+        <li class="nav"><a href="#about"><i class="fa-sharp fa-solid fa-book-open-reader"></i>About</a></li>
+        <li class="nav"><a href="#navmenu"><i class="fa-sharp fa-solid fa-list"></i>Menu</a></li>
+        <li class="nav"><a href="businesshours.html"><i class="fa-regular fa-clock"></i>Hours of Business</a></li>
+        <li class="nav"><a href="contact.html"><i class="fa-solid fa-person"></i>Contact Info</a></li>
+    </ul>
+</nav>
+<ul>
+</div>
+   
+<div class="slide">
+    <div class="pic1"></div> 
+    <div class="pic2"></div> 
+    <div class="pic3"></div>
+    <div class="pic4"></div>
+    <div class="pic5"></div>
+    
+</div>
+<div class="tagline">
+    <h1 id="text">
+      Home Of the Worlds Finest Cousines
+    </h1>
+</div>
+<hr>
+<hr>
+<div id="about" class="about">
+    <article>
+       
+        <h1 class="h1a"> <span class="space">--</span>About <span class="space">--</span></h1>
+      <section class="body">
+<div class="content">
+<h3>The harvesting and consuming of seafoods are ancient practices that 
+    may date back to at least the Upper Paleolithic period which dates to 
+    between 50,000 and 10,000 years ago.</h3>
+    <p>I started This Business Because Personally I love SeaFood and I like to share
+        the delight i am feeling when i'm eating Sea Foods
+    </p>
+    <p>
+        <strong>
+            My skills in Cooking SeaFood Cousines has been refined over ages and work this restaurant will give you 
+            the best Sea Food Experience, I graduated in Culinary arts and have a Masters Degree in Hotel and Restaurant
+            Management.
+        </strong>
+    </p>
+    <em>
+        My Restaurant is Located at Avengers Street, Malabon Avenue, Asgard City
+    </em>
+  
+   <p> <b>Please Visit Us in our Humble Restaurant!</b></p>
+   <p><i>Note: I love You❤❤❤
+   </i></p>
+   
+</div>
+<div class="image">
+<img src="media/logo.png" alt="">
+</div>
+      </section>
+
+    </article>
+
+</div>
+<hr><hr>
+<div id="navmenu" class="menu">
+    <h1 class="title-menu">Menu</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Grilled Squid</th>
+          <th>Grilled Bangus</th>
+          <th>Talaba</th>
+          <th>Crabs</th>
+          <th>Shrimps</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="media/photo1.jfif" style="width:290px; height:300px;" alt="photo1"></td>
+          <td><img src="media/photo2.jpg" alt="photo2" style="width:290px; height:300px;"></td>
+          <td><img src="media/photo3.jpg" alt="photo2" style="width:290px; height:300px;"></td>
+          <td><img src="media/photo4.webp" alt="photo2" style="width:290px; height:300px;"></td>
+          <td><img src="media/photo5.jpg" alt="photo2" style="width:290px; height:300px;"></td>
+        </tr>
+        <tr>
+          <td>$10 per Serve</td>
+          <td>$20 per Serve</td>
+          <td>$8 per Serve</td>
+          <td>$15 per Serve</td>
+          <td>$12 per Serve</td>
+</tr>
+      </tbody>
+    </table>
+</div>
+
+    </body>
+
+</html>
